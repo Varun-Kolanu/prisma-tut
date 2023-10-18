@@ -1,0 +1,6 @@
+npm i typescript ts-node @types/node -D
+npx tsc --init
+npm i prisma -D
+npx prisma init --datasource-provider postgresql
+//* To migrate:
+npx prisma migrate dev --name init
